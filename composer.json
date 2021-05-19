@@ -1,0 +1,27 @@
+{
+    "name": "ascsoftw/livewire-offline",
+    "description": "Livewire Package to display Warning to User when they go Offline.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AscSoftwares",
+            "email": "support@ascsoftwares.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ascsoftw\\LivewireOffline\\" : "src/"
+        }
+    },
+    "require-dev": {
+        "livewire/livewire": "^2.4",
+        "orchestra/testbench": "^6.17"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ascsoftw\\LivewireOffline\\LivewireOfflineServiceProvider"
+            ]
+        }
+    }
+}
